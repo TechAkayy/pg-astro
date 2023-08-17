@@ -12,17 +12,9 @@
   }
 </script>
 
-<script setup lang="ts">
-  defineProps({
-    name: {
-      type: String,
-      default: 'HeroSection',
-    },
-  })
-</script>
 <template>
   <main>
-    <span>{{ name }} : {{ count }}</span>
+    <span>Count is : {{ count }}</span>
     <h1 style="text-align: center">🧑‍🚀 Hello, Astronaut!</h1>
     <p>
       Welcome to the official <a href="https://astro.build/">Astro</a> blog
